@@ -20,10 +20,6 @@ Your login is available with:
 * *User:* Your-Email
 * *Password:* rj!B@gqg5Ks4?9jK
 
-== Switch to Administrator View
-
-After logging in you will show up in the Developer view,
-
 [[create_project]]
 == Create a New Project
 
