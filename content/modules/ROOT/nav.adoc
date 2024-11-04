@@ -8,19 +8,10 @@
 ** xref:module-01-intro.adoc#vm_state[Controlling Virtual Machine State]
 ** xref:module-01-intro.adoc#live_migrate[Live Migrate a Virtual Machine]
 
-* xref:module-02-mtv.adoc[Migrating Existing Virtual Machines]
-** xref:module-02-mtv.adoc#prerequisites[Prerequisites for Migrations]
-** xref:module-02-mtv.adoc#migrating_vms[Migrating Virtual Machines from VMware]
-
 * xref:module-04-storage.adoc[Storage Management]
 ** xref:module-04-storage.adoc#examine_pvc[Examine the PVC for a VM]
 ** xref:module-04-storage.adoc#managing_snapshots[Managing Snapshots]
 ** xref:module-04-storage.adoc#clone_vm[Clone a Virtual Machine]
-
-* xref:module-05-bcdr.adoc[Backup and Recovery for Virtual Machines]
-** xref:module-05-bcdr.adoc#review_operator[Review the OADP Operator]
-** xref:module-05-bcdr.adoc#create_backup[Create a Virtual Machine Backup]
-** xref:module-05-bcdr.adoc#restore_backup[Restore From a Backup]
 
 * xref:module-07-tempinst.adoc[Template and InstanceType Management]
 ** xref:module-07-tempinst.adoc#clone_customize_template[Clone and Customize a Template]
