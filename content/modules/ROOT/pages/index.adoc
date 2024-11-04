@@ -12,12 +12,12 @@ In this event we will explore many common management activities that virtualizat
 
 *Virtual Machine Administrators* -- Those responsible for day to day management of virtual guests in OpenShift Virtualization. These users will often find themselves responsible for provisioning virtual guests, and day to day management of the guests, and the applications running within.
 
-*Virtual Infrastructure Administrators* -- Those responsible for the physical infrastructure hosting the OpenShift Virtualization solution. These users will be responsible for physical hardware, storage, and networking changes to the environment, that will affect the day to day operations of the running virtual machines.
+*Virtual Infrastructure Administrators* -- Those responsible for the provisioning of the infrastructure hosting the OpenShift Virtualization solution. These users will be responsible for hardware, storage, and networking changes to the environment, that will affect the day to day operations of the running virtual machines.
 
 == What Content Is Covered In The Demo?
 
 // These are the *eight* main sections that will be covered:
-These are the *six* main sections that will be covered:
+These are the *four* main sections that will be covered:
 
 * _Virtual Machine Management_: In this section we will provide a review of virtual machine management fundamentals, including creating a virtual machine, and modifying it's allotted resources.
 
@@ -36,7 +36,7 @@ These are the *six* main sections that will be covered:
 * OpenShift Virtualization leverages the RHEL KVM hypervisor and allows the VM to be managed by Kubernetes and KubeVirt. An OpenShift Virtualization VM uses Kubernetes scheduling, network, and storage infrastructure.
 * OpenShift Virtualization includes entitlements for **unlimited virtual RHEL guests**. Guest licensing for other supported operating systems will need to be purchased separately.
 * OpenShift Virtualization is SVVP certified with Microsoft for Windows guest support per the same rules that apply to Red Hat’s other KVM virtualization offerings.
-* OpenShift Virtualization is currently only supported on bare metal physical servers, typically on-premises or through dedicated hosting.
+* OpenShift Virtualization only supported on bare metal hosts, typically on-premises or through dedicated hosting.
 * OpenShift Virtualization allows OpenShift to deploy, manage, and connect virtual machines to an OpenShift cluster. This includes the ability to connect to and manage those VMs using Kubernetes-native methods and take advantage of OpenShift features like Pipelines, GitOps, Service Mesh, and more.
 
 == Why switch from a traditional VM platform?
@@ -49,9 +49,6 @@ Red Hat OpenShift Dev Spaces (formerly Red Hat CodeReady Workspaces), Runtimes, 
 
 **Shift infrastructure spend to innovation:**
 OpenShift native architecture changes the heavyweight cost structure from SDDC legacy to lightweight container-native frameworks.
-
-**Risk mitigation:**
-With OpenShift support for on-premises and public cloud options, OpenShift is insurance against public cloud lock-in.
 
 **Independent from infrastructure:**
 Red Hat OpenShift runs consistently on bare metal, on-premises virtualization, or public cloud for ultimate choice and flexibility of deployment and updates.
