@@ -17,15 +17,13 @@ In this event we will explore many common management activities that virtualizat
 == What Content Is Covered In The Demo?
 
 // These are the *eight* main sections that will be covered:
-These are the *four* main sections that will be covered:
+These are the *three* main sections that will be covered:
 
 * _Virtual Machine Management_: In this section we will provide a review of virtual machine management fundamentals, including creating a virtual machine, and modifying it's allotted resources.
 
 * _Storage Management_: The storage paradigm familiar to many administrators changes with OpenShift Virtualization. This section will explore many actions related to storage management for virtual machines.
 
 * _Template and InstanceType Management_: In order to streamline deployment of virtual machines, administrators will often create Templates or define InstanceTypes to ease deployment operations. This section will focus on those processes.
-
-* _Working with Virtual Machines and Applications_: In this section we will perform several day-2 activities with our imported virtual machines, including setting up a load-balancer, and exposing our VM hosted applications through services and routes.
 
 == What is OpenShift Virtualization?
 
