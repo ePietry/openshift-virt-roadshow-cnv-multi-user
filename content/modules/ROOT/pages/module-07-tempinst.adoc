@@ -320,6 +320,7 @@ image::module-07-tempinst/25_CD_Import.png[link=self, window=blank, width=100%]
 +
 image::module-07-tempinst/26_Windows_2k19_Console.png[link=self, window=blank, width=100%]
 [[instance_types]]
+
 == Introduction to Instance Types
 
 In order to simplify the deployment process for virtual machines, starting with OpenShift 4.14 the default configuration mechanism was changed to emphasize the use of *Instance Types*. An instance type is a reusable object where you can define resources and characteristics to apply to a new VM. You can define custom instance types or use the variety that are included when you install OpenShift Virtualization when provisioning your own VM. This section explores provisioning a VM using an instance type.
