@@ -13,7 +13,7 @@ The beginning section of this lab will introduce you to the basics of creating a
 
 As a reminder, here are your credentials for the OpenShift Console:
 
-Your OpenShift cluster console is available {XXXXXXXXXXXX}[here^].
+Your OpenShift cluster console is available https://console-openshift-console.apps.rosa.fja-hcp.aksr.p3.openshiftapps.com/[here^].
 
 Your login is available with:
 

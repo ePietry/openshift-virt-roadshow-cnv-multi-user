@@ -68,7 +68,7 @@ If you would like to learn more about OpenShift Virtualization, please visit the
 
 === Credentials for the OpenShift Console
 
-Your OpenShift cluster console is available {XXXXXXXXXXXX}[here^].
+Your OpenShift cluster console is available https://console-openshift-console.apps.rosa.fja-hcp.aksr.p3.openshiftapps.com/[here^].
 
 Your login is available with:
 
