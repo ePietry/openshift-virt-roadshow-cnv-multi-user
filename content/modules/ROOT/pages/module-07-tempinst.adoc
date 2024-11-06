@@ -108,7 +108,6 @@ image::module-07-tempinst/15_MariaDB_Login.png[link=self, window=blank, width=10
 [[create_win]]
 == Create a Windows VM Template
 
-
 In this segment of our lab, we will install Microsoft Windows Server 2019 using an ISO hosted on a web server. This represents one way to install an operating system to a virtual machine that takes advantage of the ability to source disks from many locations, including a web server, object storage, or other persistent volumes in the cluster.
 
 This process can be streamlined after the initial operating system installation by creating a cloned root disk from a sysprepped virtual machine to use with other templates. 
