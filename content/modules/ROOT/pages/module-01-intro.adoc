@@ -186,14 +186,9 @@ image::module-01-intro/24_Pod.png[link=self, window=blank, width=100%]
 [[create_win]]
 == Create a Windows VM Template
 
-In this segment of our lab, we will install Microsoft Windows Server 2019 using an ISO hosted on a web server. This represents one way to install an operating system to a virtual machine that takes advantage of the ability to source disks from many locations, including a web server, object storage, or other persistent volumes in the cluster.
+In this segment of our lab, we will install Microsoft Windows Server 2019 using an ISO hosted on a web server.
 
 This process can be streamlined after the initial operating system installation by creating a cloned root disk from a sysprepped virtual machine to use with other templates. 
-
-NOTE: The specific process for preparing the guest operating system to be used as a template will vary, be sure to follow your organization's guidelines and requirements when preparing a template OS.
-
-IMPORTANT: Please make sure that you are in the *vmexamples-{user}* project for this portion of lab.
-
 
 . From the left menu, navigate to *Virtualization* -> *Catalog*, and click on the *Template catalog* tab near the top..
 
