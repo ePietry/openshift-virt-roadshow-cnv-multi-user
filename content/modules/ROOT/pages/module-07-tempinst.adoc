@@ -319,31 +319,6 @@ image::module-07-tempinst/25_CD_Import.png[link=self, window=blank, width=100%]
 . After a few minutes, the virtual machine will start, and the status will change to *Running*. Click  to the *Console* tab to view the autoattend installation process:
 +
 image::module-07-tempinst/26_Windows_2k19_Console.png[link=self, window=blank, width=100%]
-
-. The installation of the VM should  (provisioning will take 3-5 minutes, starting and configuring will take about 10 minutes), go ahead and power it off with the stop button. 
-+
-image::module-07-tempinst/27_Stop_Button.png[link=self, window=blank, width=100%]
-
-. With the machine powered down we want to make a clone of the root volume that we can use for future Windows template-based installs, without having to run through the customization process.
-
-. Click on *Storage* -> *PersistentVolumeClaims* to see a list of PVCs available in the *vmexamples-{user}* namespace.
-+
-image::module-07-tempinst/28_Storage_PVC.png[link=self, window=blank, width=100%]
-
-. Find the *windows* PVC that is listed and using the three-dot menu on the right select *Clone PVC*. On the menu that pops up, name the new PVC *windows-2k19-sysprep-template*, and set the *Access mode* to *Shared access (RWX)* then click the *Clone* button. Select the *StorageClass* named *trident-csi*
-+
-image::module-07-tempinst/29_Clone_Menu.png[link=self, window=blank, width=100%]
-
-. Once this is saved, you can use it to quickly create Windows VMs in the future.
-
-. Return to the *Virtualization -> Catalog* menu, and use this cloned PVC as a boot source for quick-creating new virtual machines by selecting the option for *PVC (clone PVC)* as the *Disk source*, and selecting the *Windows-2k19-Sysprep-Template* PVC as the *PVC name* to clone, and click the *Customize VirtualMachine* button to configure boot mode *BIOS* instead *UEFI*.
-+
-image::module-07-tempinst/30_Windows_Template.png[link=self, window=blank, width=100%]
-
-. Configure BIOS and press *Create VirtualMachine*
-+
-image::module-07-tempinst/30_Windows_Template_BIOS.png
-
 [[instance_types]]
 == Introduction to Instance Types
 
@@ -393,7 +368,6 @@ image::module-07-tempinst/37_VM_Overview.png[link=self, window=blank, width=100%
 To save resources for the next lab, stop the VMs that you created in this module.
 
 . Navigate to *Virtualization -> VirtualMachines*
-. Make sure you check every project that you have access to to see all VMs in the environment. At a minimum you should check projects `vmimported-{user}` and `vmexamples-{user}`
 . If any VMs are showing a status of *Running* click the three dots to the right and select *Stop*.
 
 Now all VMs should be in *Stopped* state.
