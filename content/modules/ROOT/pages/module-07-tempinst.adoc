@@ -78,7 +78,7 @@ image::module-07-tempinst/10_Cloud_Init_Script.png[link=self, window=blank, widt
 
 . Click the *Save* button, followed by the *Apply* button.
 
-. Now click on the *Virtualization -> Catalog* menu on the left, select the *Template catalog* option. You should see your created template available as a tile with all the others.
+. Now click on the *Virtualization -> Catalog* menu on the left, select the *Template catalog* option and *User Template*. You should see your created template available as a tile with all the others.
 +
 image::module-07-tempinst/11_User_Templates.png[link=self, window=blank, width=100%]
 
