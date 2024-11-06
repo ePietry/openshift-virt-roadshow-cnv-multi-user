@@ -105,7 +105,7 @@ image::module-07-tempinst/15_MariaDB_Login.png[link=self, window=blank, width=10
 
 . Hit `Ctrl-D` twice to log out of the VM.
 
-
+[[instance_types]]
 == Introduction to Instance Types
 
 In order to simplify the deployment process for virtual machines, starting with OpenShift 4.14 the default configuration mechanism was changed to emphasize the use of *Instance Types*. An instance type is a reusable object where you can define resources and characteristics to apply to a new VM. You can define custom instance types or use the variety that are included when you install OpenShift Virtualization when provisioning your own VM. This section explores provisioning a VM using an instance type.

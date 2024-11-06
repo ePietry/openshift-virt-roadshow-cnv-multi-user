@@ -397,7 +397,6 @@ image::module-07-tempinst/25_CD_Import.png[link=self, window=blank, width=100%]
 . After a few minutes, the virtual machine will start, and the status will change to *Running*. Click  to the *Console* tab to view the autoattend installation process:
 +
 image::module-07-tempinst/26_Windows_2k19_Console.png[link=self, window=blank, width=100%]
-[[instance_types]]
 
 == Summary
 
