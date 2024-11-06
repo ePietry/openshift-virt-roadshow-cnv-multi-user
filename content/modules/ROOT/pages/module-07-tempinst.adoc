@@ -320,7 +320,7 @@ image::module-07-tempinst/25_CD_Import.png[link=self, window=blank, width=100%]
 +
 image::module-07-tempinst/26_Windows_2k19_Console.png[link=self, window=blank, width=100%]
 
-. Once the VM installation process is complete (provisioning will take 3-5 minutes, starting and configuring will take about 10 minutes), go ahead and power it off with the stop button. 
+. The installation of the VM should  (provisioning will take 3-5 minutes, starting and configuring will take about 10 minutes), go ahead and power it off with the stop button. 
 +
 image::module-07-tempinst/27_Stop_Button.png[link=self, window=blank, width=100%]
 
